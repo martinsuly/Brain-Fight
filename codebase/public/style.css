@@ -1,0 +1,160 @@
+body
+{
+	font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 1.4;
+	padding-top: 50px;
+}
+
+#container
+{
+	width: 800px;
+	margin: 0 auto;
+}
+
+/* LOADER */
+#part_loader
+{
+	display: block;
+	height: 500px;
+}
+
+/* CREATE GAME */
+#part_create_game
+{
+	display: none;
+}
+
+#part_create_game .invited-text
+{
+	display: none;
+}
+
+#part_create_game .create-game
+{
+	width: 60%;
+	margin: 80px auto 50px auto;
+	text-align: center;
+}
+
+#part_create_game .create-game .input
+{
+	margin-bottom: 20px;
+	width: 100%;
+}
+
+#part_create_game .rules
+{
+	margin-bottom: 20px !important;
+}
+
+/* GET READY */
+#part_get_ready
+{
+	display: none;
+}
+
+#part_get_ready .get-ready
+{
+	text-align: center;
+	margin: 80px auto 50px auto;
+}
+
+#part_get_ready .title-ready
+{
+	margin-bottom: 40px;
+}
+
+#part_get_ready .player
+{
+	margin: 0 auto;
+}
+
+#part_get_ready .player .extra
+{
+	text-align: center;
+}
+
+#part_get_ready .hint
+{
+	width: 80%;
+	margin: 50px auto;
+}
+
+#part_get_ready .hint .message
+{
+	margin-top: 10px;
+}
+
+#part_get_ready .player .dimmer
+{
+	background: rgba(255,255,255, 1);
+}
+
+#part_get_ready .start
+{
+	margin: 50px 0;
+}
+
+/* GAME */
+#part_game
+{
+	display: none;
+}
+
+#part_game .game
+{
+	margin: 40px auto 20px auto;
+}
+
+#part_game .align-center
+{
+	text-align: center;
+}
+
+#part_game .align-right
+{
+	text-align: right;
+}
+
+#part_game .answers
+{
+	margin-left: 0;
+}
+
+#part_game .answers .card
+{
+	width: 23%;
+}
+
+#part_game .question
+{
+	margin: 20px 7px;
+}
+
+#part_game .question .question-image
+{
+	width: 100%;
+	height: 250px;
+}
+
+#part_game .hint
+{
+	text-align: center;
+	margin-top: 10px;
+}
+
+#part_game .game-area
+{
+	min-height: 470px;
+}
+
+#part_game .answers .marked
+{
+	border: #ff0000 2px solid
+}
+
+#part_game .dimmer-message .message
+{
+	text-transform: uppercase;
+}

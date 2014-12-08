@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<base href="/">
+		<title>Brain Fight</title>
+		<link rel="stylesheet" type="text/css" href="public/3rdparty/semantic-ui/semantic.min.css">
+		<link rel="stylesheet" type="text/css" href="public/style.css">
+		<script type="text/javascript" src="public/3rdparty/jquery-2.1.1.min.js"></script>
+		<script type="text/javascript" src="public/3rdparty/semantic-ui/semantic.min.js"></script>
+		<script src="https://cdn.socket.io/socket.io-1.2.1.js"></script>
+		<script src="public/3rdparty/jquery.countdown.min.js"></script>
+		{{#if js_data}}<script>window.js_data = {{{js_data}}};</script>{{/if}}
+		<script type="text/javascript" src="public/main.js"></script>
+		<script type="text/javascript" src="public/question.js"></script>
+	</head>
+	<body>
+		<div class="ui piled segment" id="container">
+			<h1 class="ui header dividing">Brain Fight</h1>
+
+			<div id="content">
+				<div class="part" id="part_loader">
+					<div class="ui active dimmer inverted">
+						<div class="ui indeterminate text loader large">Please wait</div>
+					</div>
+				</div>
+
+				<div class="part" id="part_create_game">
+					{{partial partials.create_game}}
+				</div>
+
+				<div class="part" id="part_get_ready">
+					{{partial partials.get_ready}}
+				</div>
+
+				<div class="part" id="part_game">
+					{{partial partials.game}}
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,80 @@
+<div class="game">
+
+	<div class="ui grid">
+		<div class="six wide column">
+			<h3 class="ui header dividing player1_name"></h3>
+		</div>
+
+		<div class="four wide column">
+			<h2 class="ui header align-center">
+				<span class="timer">0</span>
+				<div class="sub header">ROUND <span class="round-number">1</span></div>
+			</h2>
+		</div>
+
+		<div class="six wide column">
+			<h3 class="ui header dividing align-right player2_name"></h3>
+		</div>
+	</div>
+
+	<div class="game-area">
+
+		<div class="ui dimmer inverted dimmer-timer">
+			<div class="content">
+				<div class="center">
+					<h2 class="ui icon header">
+						<i class="wait icon"></i>
+						ROUND STARTS IN<br />
+						<span class="round-timer">5</span>
+					</h2>
+				</div>
+			</div>
+		</div>
+
+		<div class="ui dimmer inverted dimmer-message">
+			<div class="content">
+				<div class="center">
+					<h2 class="ui icon header">
+						<i class="trophy icon"></i>
+						<span class="message">YOU WON!</span>
+					</h2>
+				</div>
+			</div>
+		</div>
+
+		<div class="task">
+			<div class="question">
+				<canvas id="canvas_q" width="758" height="250"></canvas>
+			</div>
+
+			<div class="ui cards answers">
+				<div class="ui card link" data-id="A">
+					<div class="image">
+						<canvas id="canvas_a" width="179" height="149"></canvas>
+					</div>
+				</div>
+
+				<div class="ui card link" data-id="B">
+					<div class="image">
+						<canvas id="canvas_b" width="179" height="149"></canvas>
+					</div>
+				</div>
+
+				<div class="ui card link" data-id="C">
+					<div class="image">
+						<canvas id="canvas_c" width="179" height="149"></canvas>
+					</div>
+				</div>
+
+				<div class="ui card link" data-id="D">
+					<div class="image">
+						<canvas id="canvas_d" width="179" height="149"></canvas>
+					</div>
+				</div>
+			</div>
+
+			<div class="hint">Which one is correct ?</div>
+		</div>
+	</div>
+
+</div>

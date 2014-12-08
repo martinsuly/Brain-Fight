@@ -1,0 +1,21 @@
+{
+	"name": "brain_fight",
+	"version": "0.0.1",
+	"description": "Brain Fight - a hackathon project",
+	"private": true,
+	"dependencies":
+	{
+		"hiredis": "latest",
+		"redis": "latest",
+		"express": "latest",
+		"express-session": "latest",
+		"connect-redis": "latest",
+		"handlebars": "latest",
+		"lodash": "latest",
+		"socket.io": "latest",
+		"async": "latest",
+		"socket.io-cookie": "latest",
+		"cookie-parser": "latest"
+	},
+	"author": "Martin Sudolsky"
+}
