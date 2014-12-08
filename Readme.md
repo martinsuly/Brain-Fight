@@ -9,7 +9,7 @@ their logical thinking in a fun way.
 
 [![Koding Hackathon](/images/badge.png?raw=true "Koding Hackathon")](https://koding.com/Hackathon)
 
-Counting and solving of logical tasks can be hard for most kids. Therefore we got an idea
+Counting and solving of logical tasks can be boring for most kids. Therefore we got an idea
 to create a game within the topic "HTML5 games that are educational and learning oriented. (multiplayer preferred)"
 where we use one of the common human nature - competitivity. Who would not be the first?
 We all know the feeling of victory! Therefore we believe that children will be motivated to solve
